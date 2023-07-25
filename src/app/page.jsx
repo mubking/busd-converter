@@ -29,7 +29,7 @@ function ConversionComponent() {
 
   return (
     <div className="flex flex-col items-center mt-10">
-      <div className="flex gap-4 mb-4">
+      <div className="flex flex-col gap-4 mb-4">
         <label htmlFor="input">Enter An Amount in Naira To Convert To Busd</label>
         <input
           type="number"
